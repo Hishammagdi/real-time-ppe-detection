@@ -1,0 +1,23 @@
+.env
+.env.*
+!.env.example
+env.txt
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Roboflow datasets and generated training runs
+model/dataset/
+model/runs/
+model/train/
+# Local media and archives
+*.mp4
+*.avi
+*.mov
+*.zip
+*.pptx
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
